@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <img :src="link" alt="" srcset="">
+    <img :src="link" alt="" srcset="" oncontextmenu="return false;" ondrag="return false;">
 </template>
 
 <style scoped>

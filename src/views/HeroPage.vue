@@ -77,11 +77,12 @@ onMounted(() => {
             <input type="checkbox" id="checkbox_toggle" />
             <label for="checkbox_toggle" class="hamburger">&#9776;</label>
             <div class="menu">
-                <li>ILLUSTRATIONS</li>
-                <li>LOGOTYPES</li>
+                <li><router-link :to="{ name: 'illustration' }">ILLUSTRATIONS</router-link></li>
+
+                <li><router-link :to="{ name: 'logotypes' }">LOGOTYPES</router-link></li>
                 <li><router-link :to="{ name: 'posters' }">POSTERS</router-link></li>
                 <li><router-link :to="{ name: 'covers' }">COVERS</router-link></li>
-                <li>AI</li>
+                <li ><router-link :to="{ name: 'ai' }">AI</router-link></li>
                 <li> <router-link :to="{ name: 'contacts' }">CONTACTS </router-link> </li>
             </div>
 
@@ -130,11 +131,11 @@ onMounted(() => {
                     <div class="stix"></div>
                 </div>
                 <div class="links">
-                    <li>ILLUSTRATIONS</li>
-                    <li>LOGOTYPES</li>
+                    <li><router-link :to="{ name: 'illustration' }" class="link-des">ILLUSTRATIONS</router-link></li>
+                    <li><router-link :to="{ name: 'logotypes' }" class="link-des">LOGOTYPES</router-link></li>
                     <li><router-link :to="{ name: 'posters' }" class="link-des">POSTERS</router-link></li>
                     <li><router-link :to="{ name: 'covers' }" class="link-des">COVERS</router-link></li>
-                    <li>AI</li>
+                    <li ><router-link :to="{ name: 'ai' }" class="link-des">AI</router-link></li>
                     <li> <router-link :to="{ name: 'contacts' }" class="link-des">CONTACTS
                         </router-link> </li>
                 </div>
@@ -200,6 +201,7 @@ li {
     font-family: "NeueGrotesk";
     color: var(--black-color) !important;
     font-weight: 900;
+    
 }
 
 
@@ -255,6 +257,7 @@ input[type=checkbox] {
         height: 100vh;
         width: 100vw;
         mix-blend-mode: unset;
+        color: white;
     }
 
     .logo svg {
@@ -262,6 +265,9 @@ input[type=checkbox] {
         height: 40px;
     }
 
+    .menu li a{
+        color: white;
+    }
 
     .menu li:hover {
         display: inline-block;
@@ -284,6 +290,7 @@ input[type=checkbox] {
         z-index: 99 !important;
         position: relative;
         font-size: 32px;
+        color: #000;
     }
 }
 
@@ -376,7 +383,7 @@ div {
 }
 
 .stix {
-    width: 37.7963vh;
+    width: 32.7963vh;
     height: 22vh;
     display: block;
     background-image: url('../assets/stix.png');
@@ -384,9 +391,9 @@ div {
     background-position: 50%;
     background-size: contain;
     position: absolute;
-    top: 27.2vh;
-    left: 24.4vh;
-    rotate: -8deg;
+    top: 26.2vh;
+    left: 29.4vh;
+    rotate: -20deg;
 }
 
 .cat {
@@ -420,7 +427,7 @@ div {
     font-family: NeueGrotesk;
     margin-top: -29px;
     text-align: center;
-    background: linear-gradient(currentColor 0 0) bottom left/ var(--underline-width, 0%) 0.2em no-repeat;
+    background: linear-gradient(currentColor 0 0) bottom left/ var(--underline-width, 0%) 2px no-repeat;
     /* display: inline-block; */
     text-decoration: none;
     color: var(--white-color);

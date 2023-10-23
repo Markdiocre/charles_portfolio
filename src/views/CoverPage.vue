@@ -4,6 +4,7 @@ import PosterFrame from '@/components/PosterFrame.vue';
 
 
 let links = [
+    'https://drive.google.com/file/d/1V0yfSMYUNOT5XlhGXDnlnZBOk2s5c4e9/view',
     "https://drive.google.com/file/d/1LI5I4XvyCDBSdEn6T2xzxauC00QCfufd/view",
     "https://drive.google.com/file/d/18d6rngB222JgWMrmLVaj_ddPqJtj01ss/view",
     "https://drive.google.com/file/d/1oh5cztLNbcjIxtHftiDa5VMbzggAdLdB/view",
@@ -24,7 +25,7 @@ let links = [
         <Navbar />
         <div class="container-fluid">
             <div class="row g-0">
-                <div class="col-xl-3 col-md-6 col-sm-12" v-for="link in links">
+                <div class="col-xl-4 col-md-6 col-sm-12" v-for="link in links">
                     <PosterFrame :d_link="link"/>
                 </div>
 
@@ -39,6 +40,13 @@ let links = [
     /* padding-top: 15vh; */
     background-color: var(--black-color);
     /* height: 100vh; */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .container-fluid{
