@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "NeueGrotesk";
+  src: url("@/assets/fonts/NHaasGroteskDSPro-65Md.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "NeueGrotesk";
+  src: url("@/assets/fonts/NHaasGroteskDSPro-95Blk.otf");
+  font-weight:900;
+}
+
+@font-face {
+  font-family: "NeueGrotesk";
+  src: url("@/assets/fonts/NHaasGroteskDSPro-75Bd.otf");
+  font-weight:800;
+}
+@font-face {
+  font-family: "NeueGrotesk";
+  src: url("@/assets/fonts/NHaasGroteskDSPro-55Rg.otf");
+  font-weight:400;
+}
+
+:root{
+  --black-color: #1A1A1A;
+  --violet-color: #7a59ff;
+  --white-color: #f2f2f2;
+
+  --underline-width: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
