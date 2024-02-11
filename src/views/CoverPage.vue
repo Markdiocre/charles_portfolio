@@ -4,18 +4,18 @@ import PosterFrame from '@/components/PosterFrame.vue';
 
 
 let links = [
-    'https://drive.google.com/file/d/1V0yfSMYUNOT5XlhGXDnlnZBOk2s5c4e9/view',
-    "https://drive.google.com/file/d/1LI5I4XvyCDBSdEn6T2xzxauC00QCfufd/view",
-    "https://drive.google.com/file/d/18d6rngB222JgWMrmLVaj_ddPqJtj01ss/view",
-    "https://drive.google.com/file/d/1oh5cztLNbcjIxtHftiDa5VMbzggAdLdB/view",
-    "https://drive.google.com/file/d/171IEakmwz8zU6B4msBNvqmhXQlfHYd-V/view",
-    "https://drive.google.com/file/d/18wdEnK0YAgawJcgCR5FD5F873tmzsm_S/view",
-    "https://drive.google.com/file/d/12-SM-6uPoCYbP3Vhj1ousTZNmYBisBEP/view",
-    "https://drive.google.com/file/d/1Ile3aofMD6KSohz6F1czIYfC2_vLy3EB/view",
-    "https://drive.google.com/file/d/1qFkcT_vgrL-_kJXSv74-JZ2YphD1eS7Z/view",
-    "https://drive.google.com/file/d/1wkFCeOd5POsehGe0iVjRjsD0ZaE32za1/view",
-    "https://drive.google.com/file/d/1fRwWrbDjcIlForYbHMb_FYjsbrcPmA2Q/view",
-    "https://drive.google.com/file/d/11KRC_xgq4PqE0wSaRPPpVayhTo4oJ1ZF/view"
+"src/assets/COVERS/ALMOHADA_web.jpg",
+"src/assets/COVERS/ENEMY_web.jpg",
+"src/assets/COVERS/FLAVAH_web.jpg",
+"src/assets/COVERS/LOVE U LIKE THAT_web.jpg",
+"src/assets/COVERS/MOTIONZ_web.jpg",
+"src/assets/COVERS/OBS_web.jpg",
+"src/assets/COVERS/PART1_web.jpg",
+"src/assets/COVERS/SANDALI_web.jpg",
+"src/assets/COVERS/SELFISH_web.jpg",
+"src/assets/COVERS/SEVEN_web.jpg",
+"src/assets/COVERS/TRACK ART_web.jpg",
+"src/assets/COVERS/WAG MUNA_web.jpg"
 ]
 
 </script>

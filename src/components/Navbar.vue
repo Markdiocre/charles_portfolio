@@ -27,11 +27,11 @@ function navTohome() {
       <input type="checkbox" id="checkbox_toggle" />
       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
       <div class="menu">
-        <li><router-link :to="{ name: 'illustration' }" class="link-des">ILLUSTRATIONS</router-link></li>
-        <li><router-link :to="{ name: 'logotypes' }" class="link-des">LOGOTYPES</router-link></li>
-        <li><router-link :to="{ name: 'posters' }" class="link-des">POSTERS</router-link></li>
-        <li><router-link :to="{ name: 'covers' }" class="link-des">COVERS</router-link></li>
-        <li ><router-link :to="{ name: 'ai' }" class="link-des">AI</router-link></li>
+        <router-link :to="{ name: 'illustration' }" class="link-des">ILLUSTRATIONS</router-link>
+        <router-link :to="{ name: 'logotypes' }" class="link-des">LOGOTYPES</router-link>
+        <router-link :to="{ name: 'posters' }" class="link-des">POSTERS</router-link>
+        <router-link :to="{ name: 'covers' }" class="link-des">COVERS</router-link>
+        <router-link :to="{ name: 'ai' }" class="link-des">AI</router-link>
         <!-- <li :class="{ 'contacts': (route.name == 'contacts') }"> <router-link :to="{ name: 'contacts' }">CONTACTS </router-link></li> -->
       </div>
 
@@ -79,6 +79,11 @@ li {
   color: #fff;
   font-weight: 900;
   /* text-decoration: underline; */
+
+  color: var(--white-color) !important;
+  font-weight: 600 !important;
+  background-color: var(--violet-color) !important;
+  border-radius: 5px !important;
 }
 
 .menu a {
@@ -108,16 +113,15 @@ li {
   font-weight: 100;
 }
 
-.menu li:hover {
+.link-des:hover {
   background-color: var(--violet-color);
   border-radius: 5px;
   transition: 0.3s ease;
-  color: var(--black-color);
+  color: var(--white-color);
   cursor: pointer;
-
 }
 
-.menu > .contacts li:hover{
+.menu > .contacts .link-des:hover{
   background-color: var(--white-color);
   border-radius: 5px;
   transition: 0.3s ease;
@@ -126,7 +130,7 @@ li {
 }
 
 
-.menu li {
+.link-des {
   padding: 5px 14px;
   font-weight: 400;
 
@@ -156,6 +160,8 @@ input[type=checkbox] {
     font-size: 2rem;
     background-color: var(--black-color);
 
+    flex-direction: column;
+
     height: 100vh;
     width: 100vw;
     mix-blend-mode: unset;
@@ -167,7 +173,7 @@ input[type=checkbox] {
   }
 
 
-  .menu li:hover {
+  .link-des:hover {
     display: inline-block;
     /* width: 100%; */
     background-color: var(--violet-color);
@@ -176,13 +182,14 @@ input[type=checkbox] {
     /* border-radius: unset; */
   }
 
-  .menu li+li {
+  .link-des{
     margin-top: 12px;
+    display: inline-block;
 
   }
 
   input[type=checkbox]:checked~.menu {
-    display: block;
+    display: flex;
   }
 
   .hamburger {

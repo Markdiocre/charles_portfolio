@@ -334,7 +334,7 @@ div {
 .r-wrapper {
     width: inherit;
     height: 85vh;
-    background-image: url('https://drive.google.com/uc?export=view&id=1Ie6J-jWz5XZAVTz5hd3PMQ5sf5oIg-_n');
+    background-image: url("src/assets/LANDING_PAGE/3d_logo.png");
     background-repeat: no-repeat;
     /* background-position: 50%; */
     background-size: contain;
@@ -445,7 +445,7 @@ div {
 .tv-smile {
     width: 42vh;
     height: 42vh;
-    background-image: url('https://drive.google.com/uc?export=view&id=1bzlr_9gqjXuVWPPHMtaPgl0GOzHTxFEo');
+    background-image: url('src/assets/LANDING_PAGE/tv.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 0;
@@ -473,7 +473,7 @@ div {
 .marquee {
     width: 145vh;
     height: 12vh;
-    background-image: url('https://drive.google.com/uc?export=view&id=1MPMOvPNIvEqsXvXX0_0C_RnonxpDLY0y');
+    background-image: url('src/assets/LANDING_PAGE/marquee.png');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;
@@ -482,7 +482,7 @@ div {
 .name-title {
     width: 79vh;
     height: 40vh;
-    background-image: url('https://drive.google.com/uc?export=view&id=12zVFLycZu6ldtERaBFs-J6n-VuhKeAus');
+    background-image: url('src/assets/LANDING_PAGE/3.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;
