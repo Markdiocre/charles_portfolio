@@ -83,7 +83,7 @@ onMounted(() => {
                 <li><router-link :to="{ name: 'posters' }">POSTERS</router-link></li>
                 <li><router-link :to="{ name: 'covers' }">COVERS</router-link></li>
                 <li ><router-link :to="{ name: 'ai' }">AI</router-link></li>
-                <li> <router-link :to="{ name: 'contacts' }">CONTACTS </router-link> </li>
+                <!-- <li> <router-link :to="{ name: 'contacts' }">CONTACTS </router-link> </li> -->
             </div>
 
         </div>
@@ -136,8 +136,9 @@ onMounted(() => {
                     <li><router-link :to="{ name: 'posters' }" class="link-des">POSTERS</router-link></li>
                     <li><router-link :to="{ name: 'covers' }" class="link-des">COVERS</router-link></li>
                     <li ><router-link :to="{ name: 'ai' }" class="link-des">AI</router-link></li>
-                    <li> <router-link :to="{ name: 'contacts' }" class="link-des">CONTACTS
-                        </router-link> </li>
+                    <!-- <li>charlesclark0808@gmail.com</li> -->
+
+                    <!-- <li> <router-link :to="{ name: 'contacts' }" class="link-des">CONTACTS</router-link> </li> -->
                 </div>
             </div>
         </div>
@@ -332,8 +333,8 @@ div {
 
 .r-wrapper {
     width: inherit;
-    height: 80vh;
-    background-image: url('https://drive.google.com/uc?export=view&id=1JUbNUk8mJIlNTdWlDs_tWOFiaBcuN2GB');
+    height: 85vh;
+    background-image: url('https://drive.google.com/uc?export=view&id=1Ie6J-jWz5XZAVTz5hd3PMQ5sf5oIg-_n');
     background-repeat: no-repeat;
     /* background-position: 50%; */
     background-size: contain;

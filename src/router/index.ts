@@ -17,11 +17,11 @@ const router = createRouter({
       name: 'home',
       component: HeroPage
     },
-    {
-      path: '/contacts',
-      name: 'contacts',
-      component: ContactsPage
-    },
+    // {
+    //   path: '/contacts',
+    //   name: 'contacts',
+    //   component: ContactsPage
+    // },
     {
       path: '/posters',
       name: 'posters',

@@ -32,8 +32,7 @@ function navTohome() {
         <li><router-link :to="{ name: 'posters' }" class="link-des">POSTERS</router-link></li>
         <li><router-link :to="{ name: 'covers' }" class="link-des">COVERS</router-link></li>
         <li ><router-link :to="{ name: 'ai' }" class="link-des">AI</router-link></li>
-        <li :class="{ 'contacts': (route.name == 'contacts') }"> <router-link :to="{ name: 'contacts' }">CONTACTS </router-link>
-        </li>
+        <!-- <li :class="{ 'contacts': (route.name == 'contacts') }"> <router-link :to="{ name: 'contacts' }">CONTACTS </router-link></li> -->
       </div>
 
     </div>
